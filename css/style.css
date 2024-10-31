@@ -1,0 +1,140 @@
+/* Common Css Start */
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* Common Css End */
+
+/* Header Part start */
+header{
+    background:#1C1E53;
+    
+}
+
+
+
+.container{
+    width: 1300px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 16px;
+
+}
+
+.nav .logo{
+    width: 25%;
+}
+
+.nav_contant ul {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.nav_contant{
+    width: 50%;
+}
+.nav_contant ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.nav_contant ul li a{
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #BBBBCB;
+    text-decoration: none;
+
+}
+.contact_btn{
+    position: relative;
+    padding: 16px 48px;
+}
+.contact_btn a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+.contact_btn::after{
+    position: absolute;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 53px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+
+}
+
+
+/* Header Part End */
+
+
+/* Banner Part Start */
+.banner{
+    background:#1C1E53;
+}
+
+.banner_child{
+    display: flex;
+}
+.banner_right{
+    width: 50%;
+}
+.banner_right_1{
+    width: 100%;
+}
+
+.banner_right_1 h1{
+    padding-top: 126px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.banner_right_1 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 526px;
+}
+.banner_right_2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    gap: 20px;
+}
+
+.banner_right_2 a{
+    text-decoration: none;
+    color: #1B1C2B;
+    background: #FCD980;
+    padding: 20px;
+    border-radius: 30%;
+}
+.banner_left{
+    width: 40%;
+    padding-top: 149px;
+}
+
+/* Banner Part End */
